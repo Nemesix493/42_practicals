@@ -1,0 +1,17 @@
+/* ********************************************* */
+/*                                               */
+/*                                               */
+/*   ft_recursive_power.c                        */
+/*                                               */
+/*   By: Nemesix493                              */
+/*                                               */
+/* ********************************************* */
+
+int ft_recursive_power(int nb, int power)
+{
+    if(power <= 0)
+    {
+        return 1;
+    }
+    return nb * ft_recursive_power(nb, power - 1);
+}
