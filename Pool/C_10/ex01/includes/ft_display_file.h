@@ -1,0 +1,15 @@
+/* ********************************************* */
+/*                                               */
+/*                                               */
+/*   ft_display_file.h                           */
+/*                                               */
+/*   By: Nemesix493                              */
+/*                                               */
+/* ********************************************* */
+
+#ifndef FT_DISPLAY_FILE_H
+# define FT_DISPLAY_FILE_H
+
+int ft_display_file(char *file_path);
+
+#endif
